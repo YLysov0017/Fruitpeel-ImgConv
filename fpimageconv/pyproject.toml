@@ -1,0 +1,23 @@
+[project]
+name = "fpimageconv"
+version = "0.0.1"
+description = "Image Converter for Vita Fruitpeel plugin"
+authors = [
+    {name = "YLysov0017"}
+]
+license = {text = "GNU GPLv3"}
+readme = "README.md"
+requires-python = ">=3.12,<3.14"
+dependencies = [
+    "pillow (>=11.1.0,<12.0.0)",
+    "pyside6 (>=6.8.2.1,<7.0.0.0)"
+]
+
+
+[tool.poetry]
+package-mode = false
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
