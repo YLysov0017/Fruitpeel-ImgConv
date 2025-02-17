@@ -1,6 +1,6 @@
 [project]
 name = "fpimageconv"
-version = "0.0.1"
+version = "1.0.0"
 description = "Image Converter for Vita Fruitpeel plugin"
 authors = [
     {name = "YLysov0017"}
@@ -10,7 +10,8 @@ readme = "README.md"
 requires-python = ">=3.12,<3.14"
 dependencies = [
     "pillow (>=11.1.0,<12.0.0)",
-    "pyside6 (>=6.8.2.1,<7.0.0.0)"
+    "pyside6 (>=6.8.2.1,<7.0.0.0)",
+    "nuitka (>=2.6.6,<3.0.0)"
 ]
 
 
