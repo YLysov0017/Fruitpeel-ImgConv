@@ -42,7 +42,7 @@ class Converter():
     
     def convert_image(self, save_path: str) -> None:
         try:
-            converted = self.img.convert("P", palette=Image.ADAPTIVE, colors=8)
+            converted = self.img.convert("P", palette=Image.ADAPTIVE, colors=256)
             self.msg = f"Successfully converted file: {save_path}\\fruitpeel.png"
             self.state = State.COMPLETE 
             converted.save(save_path + r'\fruitpeel.png')
